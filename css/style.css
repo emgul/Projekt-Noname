@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/bg.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.index_header {
+    margin-top: 6%;
+    text-align: center;
+}
+.row1 {
+    margin-top: 4%;
+}
+.row2 {
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+}
+.col-2 {
+    display: inherit;
+}
+.col-5 {
+text-align: center
+}
+.form1 {
+    margin-right: 3%;
+    
+}
+.Pnamn {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 60px
+}
+.nameform {
+    display: inherit;
+}
+.form-control {
+    width: 100%;
+}
