@@ -20,9 +20,9 @@
         $text1 = $_POST["text1"];
 
 $servername = "localhost";
-$username = "root";
+$username = "";
 $password = "";
-$dbname = "projektnamn";
+$dbname = "";
     
 
 // Create connection
@@ -40,7 +40,7 @@ if(isset($_POST['submit']))
 	$filtered = trim($filtered);
 
 	// databas
-	$mysqli = new mysqli("localhost", "root", "", "projektnamn");
+	$mysqli = new mysqli("localhost", "", "", "");
 	/* check connection */
 	if ($mysqli->connect_error) {
 	    die('Connect Error (' . $mysqli->connect_errno . ') '
